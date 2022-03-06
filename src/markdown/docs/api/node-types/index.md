@@ -102,7 +102,7 @@ const nodeTypes = {
 
 const CustomNodeExample = () => {
   return (
-    <div style={{ height: 300 }}>
+    <div style={{ height: 500 }}>
       <ReactFlow elements={elements} nodeTypes={nodeTypes} />
     </div>
   );
@@ -112,5 +112,5 @@ export default CustomNodeExample;
 ```
 
 import CustomNodeFlow from './node-types';
-
+//
 <CustomNodeFlow />
